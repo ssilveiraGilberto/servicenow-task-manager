@@ -1,12 +1,13 @@
 # 🛠️ ServiceNow Task Manager (Beginner App)
 
-This is a beginner-level ServiceNow app I built using my Personal Developer Instance (PDI), as part of my journey to become a certified ServiceNow Developer.
+This is my first hands-on ServiceNow app, built entirely from scratch using a Personal Developer Instance (PDI).  
+It’s part of my journey toward becoming a certified ServiceNow Developer, focused on mastering backend logic, automation, and platform fundamentals.
 
-The app was built from scratch using the App Engine Studio to manage internal tasks and learn core platform features.
+The project simulates a simple internal task management system, allowing me to explore core features such as form creation, field configuration, Flow Designer, and Business Rules.
 
 ---
 
-## 📌 Features
+## 📌 Key Features
 
 - Custom table: `Tasks`
 - Fields:
@@ -18,9 +19,7 @@ The app was built from scratch using the App Engine Studio to manage internal ta
 - Auto-generated form using App Engine Studio
 - Custom list view with relevant fields
 
----
-
-## 📸 Screenshots
+📸 Screenshots
 
 | Form View | List View |
 |-----------|-----------|
@@ -28,28 +27,47 @@ The app was built from scratch using the App Engine Studio to manage internal ta
 
 ---
 
+## ⚙️ Automations
+
+### 🔁 Flow Designer – Email Notification
+
+A flow was created using Flow Designer to send an email when a new task is created and assigned to a user.
+
+- **Trigger:** Task created
+- **Action:** Send Email to `Assigned To`
+
+
+📸 Screenshot:
+
+| Flow Designer | Email View |
+|-----------|-----------|
+| ![flow-designer](./screenshots/flow-designer-email.png) | ![email-view](./screenshots/email-view.png) |
+ 
+---
+
 ## 📚 What I learned
 
-- How to navigate the PDI and App Engine Studio  
-- Creating a custom application from scratch  
-- Building forms, tables and configuring field types  
-- Using Choice fields and user references  
-- Managing the list view columns and layout
+- How to navigate App Engine Studio and PDI
+- Creating and managing custom tables and forms
+- Working with field types: choice, reference, and multiline
+- Setting up List Views for clarity and usability
+- Creating flows with triggers and actions
+- Understanding system email behavior in the PDI
 
 ---
 
-## 🔧 Next Steps
-
-- Add Flow Designer automation (e.g., email on task creation)  
-- Create a Business Rule to auto-update status  
-- Connect to an external API to simulate advanced use cases
+## 🔧 Next Steps 
+- Add Business Rules for field validation and status automation  
+- Simulate external API integration using REST steps  
+- Start working on a Scoped App version  
+- Prepare for the Certified System Administrator (CSA) exam
 
 ---
 
 ## 👨🏻‍💻 About Me
 
-I'm transitioning into ServiceNow development and preparing for the **CSA – Certified System Administrator** certification.  
-I build real-world apps in public to solidify my learning and share progress with the community.
+I'm transitioning into the ServiceNow ecosystem with a strong focus on backend development, scripting, and platform automation.  
+I document every step of my learning journey by building real applications in public and sharing insights with the community.
 
 🫱🏽‍🫲🏻 [Let's connect on LinkedIn](https://www.linkedin.com/in/servicenow-developer-gilberto-silveira/)  
 
