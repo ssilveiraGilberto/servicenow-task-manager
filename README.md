@@ -45,6 +45,22 @@ A flow was created using Flow Designer to send an email when a new task is creat
  
 ---
 
+## 🧪 Study Scripts
+
+This project includes hands-on learning scripts to explore GlideRecord queries:
+
+scripts/gliderecord-study.js
+
+This script demonstrates:
+- How to use addQuery(), addOrCondition(), and addEncodedQuery()
+- How to retrieve a single record using get()
+- How to handle reference fields like assigned_to using getDisplayValue() and getRefRecord()
+- Best practices and performance considerations when querying data
+
+It's fully commented to help reinforce key ServiceNow scripting concepts.
+
+---
+
 ## 📚 What I learned
 
 - How to navigate App Engine Studio and PDI
@@ -53,6 +69,7 @@ A flow was created using Flow Designer to send an email when a new task is creat
 - Setting up List Views for clarity and usability
 - Creating flows with triggers and actions
 - Understanding system email behavior in the PDI
+- Using GlideRecord to query and manipulate records in scripts
 
 ---
 
